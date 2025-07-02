@@ -9,7 +9,7 @@
   </section>
 </template>
 <script setup>
-import { ref,computed } from "vue"
+import { ref } from "vue"
 import { getData } from "@/static/data-handle";
 import Marker from "/src/components/Marker.vue"
 import Control from "@/components/Control.vue";
