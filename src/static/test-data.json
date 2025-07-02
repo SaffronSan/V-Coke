@@ -1,0 +1,72 @@
+[
+    {
+        "name": "HERMITAGE",
+        "date": "2000",
+        "img" : "https://placehold.co/400",
+        "type": "jcb",
+        "id": "01JZ3QEVSG1N1JWP21Z5JB8137"
+    },
+    {
+        "name": "MAGNOLIA",
+        "date": "2001",
+        "img" : "https://placehold.co/400",
+        "type": "diners-club-international",
+        "id": "01JZ3QEVSHY91NPA1TQ1GFKPVV"
+    },
+    {
+        "name": "RICHMOND",
+        "date": "2002",
+        "img" : "https://placehold.co/400",
+        "type": "switch",
+        "id": "01JZ3QEVSK1ZKQ2W3122J03N4G"
+    },
+    {
+        "name": "Neuss",
+        "date": "2003",
+        "img" : "https://placehold.co/400",
+        "type": "visa",
+        "id": "01JZ3QEVSMWSXJDXJ0KHF7YAP5"
+    },
+    {
+        "name": "CLEVELAND",
+        "date": "2004",
+        "img" : "https://placehold.co/400",
+        "type": "mastercard",
+        "id": "01JZ3QEVSNSR2AM1GNAS7S64EV"
+    },
+    {
+        "name": "MUSCATINE",
+        "date": "2005",
+        "img" : "https://placehold.co/400",
+        "type": "maestro",
+        "id": "01JZ3QEVSP6TDYADKCMQVTDWJB"
+    },
+    {
+        "name": "Antwerpen",
+        "date": "2006",
+        "img" : "https://placehold.co/400",
+        "type": "laser",
+        "id": "01JZ3QEVSQAQVYX6BNCJSMV676"
+    },
+    {
+        "name": "ATLANTA",
+        "date": "2007",
+        "img" : "https://placehold.co/400",
+        "type": "mastercard",
+        "id": "01JZ3QEVSSZXSZ44P4CWXZG5CP"
+    },
+    {
+        "name": "CINCINNATI",
+        "date": "2008",
+        "img" : "https://placehold.co/400",
+        "type": "instapayment",
+        "id": "01JZ3QEVSTT8GKYNAV8Y5RAVR4"
+    },
+    {
+        "name": "Loosdorf/ Bez. Melk",
+        "date": "2009",
+        "img" : "https://placehold.co/400",
+        "type": "jcb",
+        "id": "01JZ3QEVSV9RM6TDAS9NAJVC00"
+    }
+]

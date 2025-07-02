@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+
+:root {
+  --main-bg: var(--color-zinc-100);
+  --secondary-bg: '#52525b';
+  --accent-bg: '#27272a';
+}
+
+body {
+  background-color: var(--main-bg);
+  @apply p-0 m-0;
+}
+
+#app{
+  min-height: 100vh;
+  @apply flex flex-col;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.func {
+  @apply rounded-full;
+}
+
+.n-func {
+  @apply rounded-lg
+}
+
+.slide-fade-enter-active {
+  transition: all 0.2s ease-in;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.2s ease-out;
+  opacity: 0;
+}
+
+.slide-fade-enter-from{
+  transform: translateY(-20px);
+}
+.slide-fade-leave-to {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+/* X*/
+.fade-slideXL-enter-active,
+.fade-slideXL-leave-active {
+  transition: all .3s ease;
+}
+.fade-slideXL-leave-to{
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.fade-slideXL-enter-from{
+  transform: translateX(100%);
+}
+.fade-slideXR-enter-active,
+.fade-slideXR-leave-active {
+  transition: all .3s ease-in-out;
+}
+.fade-slideXR-leave-to{
+  transform: translateX(100%);
+  opacity: 0;
+}
+.fade-slideXR-enter-from{
+  transform: translateX(-100%);
+    opacity: 0;
+}
