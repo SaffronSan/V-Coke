@@ -4,20 +4,37 @@
   --main-bg: var(--color-zinc-100);
   --secondary-bg: '#52525b';
   --accent-bg: '#27272a';
+  --main-animation: .6s;
+}
+
+.dark {
+  --main-bg: var(--color-zinc-900);
+  color: var(--color-zinc-100);
+}
+
+@theme {
+  --breakpoint-tablet: 640px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1280px;
 }
 
 body {
   background-color: var(--main-bg);
-  @apply p-0 m-0;
+  font-family: "Albert Sans", sans-serif;
+  @apply p-0 m-0 transition-all duration-300 ease-in-out;
 }
 
-#app{
+#app {
   min-height: 100vh;
   @apply flex flex-col;
 }
 
 main {
   flex-grow: 1;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .func {
@@ -28,44 +45,50 @@ main {
   @apply rounded-lg
 }
 
+/*Animation:*/
 .slide-fade-enter-active {
   transition: all 0.2s ease-in;
 }
 
 .slide-fade-leave-active {
-  transition: all 0.2s ease-out;
+  transition: all var(--main-animation) ease-out;
   opacity: 0;
 }
 
-.slide-fade-enter-from{
+.slide-fade-enter-from {
   transform: translateY(-20px);
 }
+
 .slide-fade-leave-to {
   transform: translateY(20px);
   opacity: 0;
 }
 
-/* X*/
 .fade-slideXL-enter-active,
 .fade-slideXL-leave-active {
-  transition: all .3s ease;
+  transition: all var(--main-animation) ease-in-out;
 }
-.fade-slideXL-leave-to{
+
+.fade-slideXL-leave-to {
   transform: translateX(-100%);
   opacity: 0;
 }
-.fade-slideXL-enter-from{
+
+.fade-slideXL-enter-from {
   transform: translateX(100%);
 }
+
 .fade-slideXR-enter-active,
 .fade-slideXR-leave-active {
-  transition: all .3s ease-in-out;
+  transition: all var(--main-animation) ease-in-out;
 }
-.fade-slideXR-leave-to{
+
+.fade-slideXR-leave-to {
   transform: translateX(100%);
   opacity: 0;
 }
-.fade-slideXR-enter-from{
+
+.fade-slideXR-enter-from {
   transform: translateX(-100%);
-    opacity: 0;
+  opacity: 0;
 }

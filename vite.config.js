@@ -9,7 +9,6 @@ export default defineConfig({
   base: '/V-Coke/',
   plugins: [
     vue(),
-    vueDevTools(),
     tailwindcss()
   ],
   resolve: {

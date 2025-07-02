@@ -1,5 +1,5 @@
-import Data from "../static/test-data.json"
-
+import testD from "../static/test-data.json"
+import Data from "../static/Data.json";
 export function getData(){
-    return Data;
+    return Data.data;
 }

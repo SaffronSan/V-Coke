@@ -1,11 +1,84 @@
 {
-    "data" : [
+    "data": [
         {
-            "name" : "",
-            "date" : "",
-            "img" : "",
-            "type" : "",
-            "id" : ""
+            "name": "Founding",
+            "date": "1887",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/coca-cola-jacobs-pharmacy.png/width3840.png",
+            "type": "Founding",
+            "longText": "",
+            "id": "2cc3c627-843b-4968-80be-fea50f8bedfb"
+        },
+        {
+            "name": "Surpassing $1 Million",
+            "date": "1911",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/W5599.png/width3840.png",
+            "type": "Milestone",
+            "longText": "",
+            "id": "25633055-bcdb-4077-a80c-e9098ce6aa52"
+        },
+        {
+            "name": "International Opening",
+            "date": "1919",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/W8075.png/width3840.png",
+            "type": "Milestone",
+            "longText": "",
+            "id": "0fc68df8-16a1-4d50-8ed8-e2cd1407643e"
+        },
+        {
+            "name": "Famous Sanata Calus Ad",
+            "date": "1931",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/W0575.png/width3840.png",
+            "type": "Major Event",
+            "longText": "",
+            "id": "c8e46356-6730-4e29-a168-69517e23f362"
+        },
+        {
+            "name": "Time Magazine",
+            "date": "1950",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/ARS02893.png/width3840.png",
+            "type": "Milestone",
+            "longText": "",
+            "id": "2af73192-83d3-49e1-8e8f-722014079e15"
+        },
+        {
+            "name": "Minute Maid",
+            "date": "1960",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/036201-hi_Can.png/width3840.png",
+            "type": "New Product",
+            "longText": "",
+            "id": "c001e8b4-12e6-4012-a693-775ad1632843"
+        },
+        {
+            "name": "Fifa Sponser",
+            "date": "1978",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/W9240.png/width3840.png",
+            "type": "Milestone",
+            "longText": "",
+            "id": "4a77fa56-c2d3-426c-a644-893ce84f700a"
+        },
+        {
+            "name": "100th Anniversary",
+            "date": "1986",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/original%20logo0002.png/width3840.png",
+            "type": "Founding",
+            "longText": "",
+            "id": "7d6cd426-61ed-465d-9b21-75ce4422147e"
+        },
+        {
+            "name": "Coke Diet & Zero",
+            "date": "2005",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/get-a-grip_hi-res_crop.png/width3840.png",
+            "type": "New Product",
+            "longText": "",
+            "id": "2e8b5746-dd84-4c21-abd8-20fb683c2d75"
+        },
+        {
+            "name": "Coca Cola Freestyle",
+            "date": "2009",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/about-us/history/red_3-4_buttons_hires_.png/width3840.png",
+            "type": "New Product",
+            "longText": "",
+            "id": "8512e5fd-4835-4b40-af09-f065a9d1f945"
         }
     ]
 }

@@ -1,15 +1,18 @@
 <template>
-    <div class="w-full tablet:w-6/12 lg:w-3/12 md:mx-0 my-1 space-y-1 mx-auto ">
-        <div class="bg-zinc-800 n-func p-4 overflow-hidden grid grid-cols-5 gap-x-2">
+    <div
+        class="w-full my-1 space-y-1 mx-auto sticky bottom-0 bg-zinc-800 n-func p-1 z-1 tablet:w-9/12 laptop:w-4/12 tablet:mx-auto laptop:realtive laptop:mt-auto">
+        <div class="overflow-hidden grid grid-cols-5 gap-x-2 p-2">
             <!-- Add Some Animation Here-->
-            <button class=" text-white func px-2 py-2 text-center transition ease-ing"
+            <button class="text-white func px-2 py-2 text-center transition ease-in hover:bg-zinc-700"
                 v-for="(item, index) in handleDataAmt()" :key="item.id"
                 @click="() => { cIndex = half === 'First' ? index : index + 5 }"
                 :class="index === (half === 'First' ? cIndex : cIndex - 5) ? 'bg-zinc-700' : 'bg-black'">
                 {{ item.date }}
             </button>
         </div>
-        <div class="func bg-zinc-800 *:text-white *:py-1 *:px-2 items-center text-2xl flex justify-between w-fit ">
+
+        <div
+            class="func bg-black *:text-white p-1 *:py-1 *:px-2 items-center text-2xl flex justify-between w-fit ml-2 laptop:text-4xl">
             <button :class="(cIndex === 0) ? 'text-zinc-400!' : ''" @click="() => { handleDir(-1) }">
                 <ArrowLeft />
             </button>
