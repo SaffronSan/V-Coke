@@ -27,7 +27,7 @@
 <script setup>
 import ArrowLeft from './icons/ArrowLeft.vue';
 import ArrowRight from './icons/ArrowRight.vue';
-import { ref } from 'vue';
+import { ref, watch, watchEffect } from 'vue';
 const props = defineProps(['data']),
     cIndex = defineModel('cIndex'),
     direction = defineModel('direction'),
@@ -39,10 +39,10 @@ const props = defineProps(['data']),
 function handleDir(dir) {
     let place = 0;
     if (dir === -1) {
-        direction.value = false;
+        //direction.value = false;
         place = cIndex.value - 1 < 0 ? 0 : cIndex.value--;
     } else {
-        direction.value = true;
+        //direction.value = true;
         place = cIndex.value + 1 === props.data.length ? props.data.length - 1 : cIndex.value++;
     }
     return place;
@@ -56,4 +56,12 @@ function handleDataAmt() {
         return props.data.slice(5, props.data.length)
     }
 }
+// This Watched for any changes to cIndex, and if its positive then it will make direction left to right, else left to right
+watch(cIndex, (nIndex, oIndex) => {
+    if ((nIndex - oIndex) < 0) {
+        direction.value = false;
+    } else {
+        direction.value = true;
+    }
+})
 </script>
