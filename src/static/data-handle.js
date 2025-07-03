@@ -8,8 +8,9 @@ export function getData() {
  * @param {String} id 
  * @returns 
  */
-export async function getLongText(id){
+export async function getLongText(id) {
     const item = getData().find((val) => val.id.includes(id));
-    if(item === undefined) return "Error";
-    return fetch(`src/static/longText/${item.longText}`).then((res) => res.text()).then((txt)=>txt )
+    if (item === undefined) return "Error";
+    return fetch(`src/static/longText/${item.longText}`).then((res) => res.text()).then((txt) => txt).catch((err) => err)
 }
+//touch detail{001..009}.txt

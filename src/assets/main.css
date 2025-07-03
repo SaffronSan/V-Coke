@@ -4,7 +4,7 @@
   --main-bg: var(--color-zinc-100);
   --secondary-bg: '#52525b';
   --accent-bg: '#27272a';
-  --main-animation: .6s;
+  --main-animation: .3s;
 }
 
 .dark {
@@ -66,7 +66,7 @@ button:hover {
 
 .fade-slideXL-enter-active,
 .fade-slideXL-leave-active {
-  transition: all var(--main-animation) ease-in-out;
+  transition: all var(--main-animation) ease;
 }
 
 .fade-slideXL-leave-to {
@@ -80,7 +80,7 @@ button:hover {
 
 .fade-slideXR-enter-active,
 .fade-slideXR-leave-active {
-  transition: all var(--main-animation) ease-in-out;
+  transition: all var(--main-animation) ease;
 }
 
 .fade-slideXR-leave-to {
