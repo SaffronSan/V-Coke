@@ -19,18 +19,16 @@
                 </div>
             </div>
         </div>
-
         <p class="my-4 text-xl p-4 text-justify laptop:text-left laptop:text-2xl ">
             {{ longText }}
         </p>
-
-
     </div>
 </template>
 
 <script setup>
 import { getLongText } from "@/static/data-handle";
-/// WORK ON THE FLEX STUFF
+/// WORK ON THE Pre Load, strange bug when switching 
 const props = defineProps(["data"]),
+    // Work on the Fetch, not working on productions
     longText = await getLongText(props.data.id);
 </script>
