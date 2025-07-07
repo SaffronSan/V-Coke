@@ -1,0 +1,67 @@
+{
+    "data": [
+        {
+            "name": "Gold Peak",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/brands/logos/gold-peak-tea-logo.png",
+            "invert": "flase",
+            "brandLoc": "https://www.goldpeakbeverages.com/",
+            "id": "0"
+        },
+        {
+            "name": "Fair Life",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/brands/logos/fairlife-logo.png",
+            "invert": "false",
+            "brandLoc": "https://www.fairlife.com/",
+            "id": "1"
+        },
+        {
+            "name": "Minute Maid",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/brands/logos/minute-maid-logo.png",
+            "invert": "false",
+            "brandLoc": "https://www.minutemaid.com/",
+            "id": "2"
+        },
+        {
+            "name": "Fanta",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/brands/logos/fanta-logo.png",
+            "invert": "false",
+            "brandLoc": "https://www.fanta.com/",
+            "id": "3"
+        },
+        {
+            "name": "Sprite",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/brands/logos/sprite-logo.png",
+            "invert": "false",
+            "brandLoc": "https://www.sprite.com/",
+            "id": "4"
+        },
+        {
+            "name": "Coke Diet",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/brands/logos/dietCoke_transparency.png",
+            "invert": "false",
+            "brandLoc": "https://www.dietcoke.com/",
+            "id": "5"
+        },
+        {
+            "name": "Powerade",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/brands/logos/powerade-logo.png",
+            "invert": "true",
+            "brandLoc": "https://www.powerade.com/",
+            "id": "6"
+        },
+        {
+            "name": "Vitamin Water",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/brands/logos/vitaminwater-logo.png",
+            "invert": "true",
+            "brandLoc": "https://www.vitaminwater.com/",
+            "id": "7"
+        },
+        {
+            "name": "Smart Water",
+            "img": "https://www.coca-colacompany.com/content/dam/company/us/en/brands/logos/smartwater-logo.png",
+            "invert": "false",
+            "brandLoc": "https://www.drinksmartwater.com/",
+            "id": "8"
+        }
+    ]
+}

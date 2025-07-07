@@ -1,7 +1,10 @@
 import Data from "../static/Data.json";
-
+import Brands from "../static/brands.json";
 export function getData() {
     return Data.data;
+}
+export function getBrands(){
+    return Brands.data
 }
 /**
  * 

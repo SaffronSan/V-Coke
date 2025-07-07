@@ -38,14 +38,23 @@ button:hover {
 }
 
 .func {
-  @apply rounded-full;
+  @apply rounded-full shadow-sm;
 }
 
 .n-func {
-  @apply rounded-lg
+  @apply rounded-lg shadow-sm;
 }
 
 /*Animation:*/
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .5s ease-in-out; 
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 .slide-fade-enter-active {
   transition: all 0.2s ease-in;
 }

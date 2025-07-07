@@ -9,7 +9,7 @@
             <RouterLink activeClass="bg-black!" class="func" to="/timeline">Timeline</RouterLink>
         </div>
         <div>
-            <button @click="toggleTheme()" class="func text-white bg-black p-2 px-4 laptop:py-4 laptop:px-8 ">
+            <button @click="toggleTheme()" class="func text-white bg-black py-1.5 px-4 laptop:py-3 laptop:px-8 ">
                 <Transition name="slide-fade" mode="out-in" appear>
                     <Moon v-if="theme" />
                     <Sun v-else />

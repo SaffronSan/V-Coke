@@ -27,7 +27,7 @@
 <script setup>
 import ArrowLeft from './icons/ArrowLeft.vue';
 import ArrowRight from './icons/ArrowRight.vue';
-import { ref, watch, watchEffect } from 'vue';
+import { ref, watch } from 'vue';
 const props = defineProps(['data']),
     cIndex = defineModel('cIndex'),
     direction = defineModel('direction'),
